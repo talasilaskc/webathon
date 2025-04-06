@@ -1,6 +1,8 @@
 {
-  "dependencies": {
-    "razorpay": "^2.9.6",
-    "react-scripts": "^5.0.1"
+  "name": "hostel-management",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build"
   }
 }
