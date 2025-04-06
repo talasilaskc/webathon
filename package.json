@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "razorpay": "^2.9.6",
-    "react-scripts": "^5.0.1",
-    "server": "node server.js"
+    "react-scripts": "^5.0.1"
   }
 }
