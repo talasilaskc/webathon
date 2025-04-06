@@ -1,0 +1,16 @@
+<div class="payment-container">
+    <h2>Pay Your Hostel Fees</h2>
+  
+    <div class="input-group">
+      <label for="amount">Enter Amount (₹)</label>
+      <input
+        type="number"
+        id="amount"
+        [(ngModel)]="amount"
+        placeholder="e.g. 500"
+        min="1"
+      />
+    </div>
+  
+    <button (click)="payWithRazorpay()" [disabled]="!amount">Pay ₹{{ amount || '0' }}</button>
+  </div>
